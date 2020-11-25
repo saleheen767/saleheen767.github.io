@@ -240,7 +240,7 @@ header .header-cases {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 100px;
-  background-color: #8C8C89;
+  background-color: #dddddd;
 }
 
 .index-links div h3 {
@@ -284,7 +284,7 @@ header .header-cases {
   .index-links div {
     margin: 20px 10px 0;
     height: 225px;
-    background-color: #8C8C89;
+    background-color: #dddddd;
     float: left;
   }
 
@@ -373,7 +373,7 @@ footer ul li a {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 300px;
-  background-color: #8C8C89;
+  background-color: #dddddd;
 }
 
 .index-links1 div h3 {
@@ -403,7 +403,7 @@ footer ul li a {
     .index-links1 div {
       margin: 20px 10px 0;
       height: 225px;
-      background-color: #8C8C89;
+      background-color: #dddddd;
       float: left;
     }
 
@@ -433,7 +433,7 @@ header .header-brand-about {
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
-  background-color: #8C8C89;
+  background-color: #dddddd;
   text-transform: uppercase;
 }
 
@@ -507,7 +507,7 @@ header .header-brand-about {
   .index-links-edu div {
     margin: 20px 10px 0;
     height: 500px;
-    background-color: #8C8C89;
+    background-color: #dddddd;
     float: left;
   }
 
@@ -532,7 +532,7 @@ header .header-brand-about {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 400px;
-  background-color: #8C8C89;
+  background-color: #dddddd;
 }
 
 .index-links-edu div h3 {

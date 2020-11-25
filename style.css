@@ -1,0 +1,576 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*my code*/
+
+* {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+div ul li a:hover {
+  color: red;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #111;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  a:hover {
+    color: red;
+  }
+
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 36px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #fff;
+    float: left;
+  }
+  header nav ul {
+    margin: 20px 20px 0 0;
+    float: right;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+  header .header-cases {
+    display: block;
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 0 20px;
+  }
+}
+
+/*INDEX*/
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  font-family: Catamaran;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: Arial;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 30px;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #8C8C89;
+}
+
+.index-links div h3 {
+  font-family: Arial;
+  font-size: 28px;
+  color: #111;
+  text-align: center;
+  font-weight: 600;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+  a:hover {
+    color: red;
+  }
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-banner {
+    height: 450px;
+  }
+
+  .index-banner h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+
+  .index-links {
+    overflow: hidden;
+  }
+
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 225px;
+    background-color: #8C8C89;
+    float: left;
+  }
+
+  .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+  }
+
+  .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+
+  .index-links div h3 {
+    line-height: 230px;
+  }
+}
+
+/*footer*/
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+
+footer ul li a {
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.footer-links-second {
+  display: none;
+}
+
+.footer-sm {
+  width: 30px;
+  float: right;
+}
+
+.footer-sm img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-links-second {
+    display: block;
+  }
+
+  footer ul {
+    padding-right: 80px;
+  }
+
+  footer ul li p {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-transform: uppercase;
+
+  }
+}
+
+
+
+
+
+/*contact*/
+
+.index-links1 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 300px;
+  background-color: #8C8C89;
+}
+
+.index-links1 div h3 {
+  font-family: Arial;
+  font-size: 28px;
+  color: #111;
+  text-align: center;
+  font-weight: 600;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+.index-links1 div p {
+  font-family: Arial;
+  font-size: 28px;
+  color: #111;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .index-links1 {
+      overflow: hidden;
+    }
+
+    .index-links1 div {
+      margin: 20px 10px 0;
+      height: 225px;
+      background-color: #8C8C89;
+      float: left;
+    }
+
+    .index-boxlink-rectangle1 {
+      width: calc(50% - 20px) !important;
+    }
+
+    .index-links div h3 {
+      line-height: 230px;
+    }
+}
+
+
+
+
+
+
+/*aboutme*/
+
+
+header .header-brand-about {
+  font-family: Catamaran;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #8C8C89;
+  text-transform: uppercase;
+}
+
+.index-banner-about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/me.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center-about {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner-about h2 {
+  font-family: Catamaran;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner-about h1 {
+  font-family: Arial;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 30px;
+  text-shadow: 2px 2px 8px #111;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  a:hover {
+    color: red;
+  }
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-banner-about {
+    height: 450px;
+  }
+
+  .index-banner-about h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+
+
+
+  .wrapper-edu {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-links-edu {
+    overflow: hidden;
+  }
+
+  .index-links-edu div {
+    margin: 20px 10px 0;
+    height: 500px;
+    background-color: #8C8C89;
+    float: left;
+  }
+
+  .index-boxlink-rectangle-edu {
+    width: calc(100% - 20px) !important;
+  }
+
+  .index-links-edu div h3 {
+    line-height: 230px;
+  }
+}
+
+
+
+
+
+
+/*education*/
+
+
+.index-links-edu div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 400px;
+  background-color: #8C8C89;
+}
+
+.index-links-edu div h3 {
+  font-family: Arial;
+  font-size: 30px;
+  color: #111;
+  text-align: center;
+  font-weight: 600;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+.index-links-edu div p {
+  font-family: Arial;
+  font-size: 28px;
+  color: #111;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .index-links-edu {
+      overflow: hidden;
+    }
+
+    .index-links-edu div {
+      margin: 20px 10px 0;
+      height: 400px;
+      background-color: #8C8C89;
+      float: left;
+    }
+
+    .index-boxlink-rectangle-edu {
+      width: calc(100% - 20px) !important;
+    }
+
+    .index-links-edu div h3 {
+      line-height: 230px;
+    }
+}
